@@ -1,6 +1,6 @@
 <h1>Anime Page</h1>
 
-<p>Sitio web: <a href="https://dynamic-biscuit-99edd2.netlify.app/">https://dynamic-biscuit-99edd2.netlify.app/</a></p> 
+<p>Sitio web: <a href="https://anime-project.alwaysdata.net/">Anime-project</a></p> 
 
 <h3>Página principal</h3>
 <img src="./assets/Anime-index.png" alt="Página índice">
