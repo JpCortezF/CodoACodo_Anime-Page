@@ -18,6 +18,9 @@ var votesRouter = require('./routes/votes');
 var commentsRouter = require('./routes/comments');
 var searchRouter = require('./routes/search');
 var adminDashboardRouter = require('./routes/adminDashboard');
+var adminAddAnimeRouter = require('./routes/adminAddAnime');
+var adminAddAnimeRouter = require('./routes/adminAddAnime');
+var watchRouter = require('./routes/watch');
 
 var app = express();
 
@@ -58,8 +61,10 @@ app.use('/myprofile', myprofileRouter);
 app.use('/favorites', favoritesRouter);
 app.use('/votes', votesRouter);
 app.use('/comments', commentsRouter);
-app.use('/search', searchRouter)
-app.use('/adminDashboard', adminDashboardRouter)
+app.use('/search', searchRouter);
+app.use('/adminDashboard', adminDashboardRouter);
+app.use('/adminAddAnime', adminAddAnimeRouter);
+app.use('/watch', watchRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
